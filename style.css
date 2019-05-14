@@ -1,0 +1,373 @@
+html,body{
+	margin: auto 0;
+	padding: auto 0;
+	font-family: arial;
+}
+body{
+	display: grid;
+	grid-template-columns: 1;
+}
+/*header class*/
+.split{
+	display: inline-block;
+	size: 100% 100%;
+}
+.main-nav{
+	display:flex;
+	list-style: none;
+	color:white;
+	margin:0;
+	font-size: 1.6em;
+	padding: 5px;
+	position: relative;
+}
+li.push{
+	margin-right: auto-fill;
+	cursor: pointer;
+}
+.first .head .main-nav img{
+	height: 2rem;
+	width: 8rem;
+	padding-top: 0;
+}
+.first .head .main-nav .push li .l a{
+	color:rgb(40,40,40);
+}
+.first .head .main-nav .push li .l a:hover{
+	color:rgba(255,0,0,0.8);
+}
+.first{
+	background-color: rgba(0,0,255,0.6);
+	width: 100%;
+	height: 6.7%;
+	position: absolute;
+	visibility: visible;
+}
+.second{
+	background-image: url(pencil.jpg);
+	opacity: 0.9;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 46rem;
+	width: auto;
+}
+.second h1{
+	font-size: 6rem;
+	text-align: center;
+	margin:center;
+	margin-top: 15%;
+}
+.second h3{
+	font-size: 2rem;
+	text-align: center;
+	margin:center;
+}
+.second button{
+	padding: 1rem;
+	margin-left:45%;
+}
+.third{
+    background-color: white;
+    height: 26rem;
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+}
+.third h3{
+	font-size: 2rem;
+	text-align: center;
+	margin:center;
+	margin-top: 10%;
+	text-decoration: bold;
+	opacity: 0.8;
+}
+.third p{
+	font-size: 1.1rem;
+	text-align: center;
+	margin:center;
+	opacity: 0.7;
+}
+.third button{
+	padding: 1rem;
+	margin-left:45%;
+	background-color: rgb(50,50,50);
+	margin-top: 2%;
+}
+.third button:hover{
+	padding: 1rem;
+	margin-left:45%;
+	background-color: rgb(40,40,40);
+	margin-top: 2%;
+}
+.fourth{
+	background-color:#007399;
+	opacity: 0.9;
+    position: relative;
+    height: 32rem;
+    width: auto;
+}
+.fourth p{
+	font-size: 1.2rem;
+	text-align: center;
+	margin:center;
+	margin-top: 5%;
+	color:#f4c441;
+}
+.fourth h2{
+	font-size: 3rem;
+	text-align: center;
+	margin:center;
+	color: white;
+}
+.fourth img{
+	display: inline-block;
+	height: 8em;
+	width: 8em;
+	border-radius: 20em;
+	background-color: white;
+	margin-left:13%;
+	margin-right: 0;
+	opacity: 0.9;
+}
+.fourth .new{
+	text-align:center;
+	display: inline-block;
+	margin-left:4.5%;
+}
+.fourth .new .part{
+    display: inline-block;
+    text-align: center;
+    margin-left: 5rem;
+}
+.fourth .new h4{
+	font-size: 2em;
+	color: white;
+}
+.fourth .new p{
+	color:white;
+	height: 5rem;
+	width: 15rem;
+}
+.fifth{
+	background-image: url(yellow.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 45rem;
+	width: auto;
+}
+.fifth h1{
+	font-size: 4rem;
+	text-align: center;
+	margin:center;
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fifth button{
+	padding: 1rem;
+	margin-left:45%;
+	margin-top: 2%;
+	font-size: 0.8rem;
+	padding: 1.5rem;
+}
+.sixth{
+	background-color: white;
+    background-size: 100% 30%;
+    position: relative;
+}
+.sixth .table{
+	display: flex;
+	flex-flow: wrap;
+	position: relative;
+	height: 44em;
+	width: auto;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+
+}
+.sixth .table img{
+	
+	-webkit-transition: height 0s,width 0s,transform 0.2s;
+	-webkit-transform: scale(1,1);
+	-webkit-transition-delay:0s;
+}
+.sixth .table img:hover{
+	-webkit-transition: height 0s,width 0s,transform 0.2s;
+	-webkit-transition-delay:0s;
+	-webkit-transform: scale(0.85,0.85);
+	opacity: 0.8;
+}
+.sixth .table .stationary{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.sixth .table .icecream{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.sixth .table .yellow{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.sixth .table .strawberry{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.sixth .table .pos{
+	position: absolute;
+	text-align: center;
+	top:33%;
+	left: 10%;
+	color: white;
+}
+.sixth .table .pos p{
+	font-size: 1.2em;
+}
+.sixth img{
+	height: 22em;
+	width: 35em;
+	display: inline-block;
+}
+.sixth h1{
+	font-size:2.45rem;
+	text-align: center;
+	width: 100%;
+}
+.sixth .para p{
+	font-size: 1.2rem;
+	text-align: center;
+	margin:center;
+	margin-top: 5%;
+	color:#f4c441;
+}
+.content-section{
+	padding-top:10rem;
+	padding-bottom:10rem
+}
+.content-section-heading h2{
+	font-size:3rem
+}
+.content-section-heading h3{
+	font-size:1rem;
+	text-transform:uppercase
+}
+.bg-primary{
+	background-color:#1d809f!important
+}
+.disp a{
+	background-color: rgb(40,40,40);
+	color:white;
+	border: 2px;
+	border-radius: 0.3rem;
+	padding-top:1em;
+	padding-left: 2rem;
+	padding-bottom:1em;
+	padding-right: 2rem;
+	font-size: 1.2rem;
+	text-decoration: none;
+	text-align: center;
+}
+.disp a:hover{
+	background-color: rgba(40,40,40,0.7);
+	color:white;
+	border: 2px;
+	border-radius: 0.3rem;
+	padding-top:1em;
+	padding-left: 2rem;
+	padding-bottom: 1em;
+	padding-right: 2rem;
+	font-size: 1.2rem;
+	text-decoration: none;
+	text-align: center;
+}
+.eight{
+	background-color: white;
+    background-size: 100% 30%;
+    position: relative;
+    height: 10rem;
+    width: auto;
+}
+.eight p{
+	text-align:center;
+	margin: center;
+	margin-top: 7%;
+}
+.fa{
+    padding: 1.15rem;
+    font-size: 2rem;
+    text-align: center;
+    width: 4.5rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 37%;
+    border-radius: 50%;
+}
+.fa:hover {
+	padding: 1.15rem;
+    font-size: 2rem;
+    text-align: center;
+    width: 4.5rem;
+    opacity: 0.7;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 37%;
+    border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+  margin:10px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+  margin:10px;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  border-radius: 50%;
+  margin:10px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 50%;
+  margin:10px;
+}
+.eight .fa a{
+	text-decoration: none;
+	color:white;
+}
+/*elements*/
+li{
+padding: 0.05em;
+color:rgb(68,0,39,0.75);
+font-weight: 2em;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: auto;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+text-align: center;
+}
+nav ul li a:hover{
+	color:yellow;
+	text-decoration: none;
+	text-align: center;
+	border: auto-fill;
+	border-radius: 8px;
+}
